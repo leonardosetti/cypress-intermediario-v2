@@ -1,10 +1,11 @@
 {
   "name": "cypress-intermediario-v2",
-  "version": "1.0.0",
-  "description": "Repositório do projeto v2 do curso de testes automatizados com Cypress (intermdiário) da Escola TAT no Udemy",
+  "version": "v2",
+  "description": "Repositório do projeto v2 do curso de testes automatizados com Cypress (intermediário) da Escola TAT no Udemy",
   "main": "cypress.config.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/wlsf82/cypress-intermediario-v2/issues"
   },
-  "homepage": "https://github.com/wlsf82/cypress-intermediario-v2#readme"
+  "homepage": "https://github.com/wlsf82/cypress-intermediario-v2#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^13.6.4",
+    "cypress-plugin-api": "^2.6.1"
+  }
 }
