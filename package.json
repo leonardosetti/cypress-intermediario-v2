@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "scripts": {
     "test": "cypress run",
-    "open": "cypress open"
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
